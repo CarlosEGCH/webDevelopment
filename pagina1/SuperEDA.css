@@ -1,0 +1,95 @@
+body{
+    font-family: "Arial Black";
+    padding: 5px;
+    font-size: 12px;
+    background-image: linear-gradient(45deg,#EDF5E1, #8EE4AF,#5CDB95);
+    background-attachment:fixed;
+}
+
+.nav-items{
+    list-style: none;
+    font-size: 2em;
+    display: block;
+}
+
+li{
+    margin: 0.6em;
+    padding: 0.5em;
+    color: #05386B;
+    float: right;
+    border: 2px solid;
+    border-radius: 2em;
+    background-color: rgba(55, 150, 131, 0.3);
+    box-shadow: 5px 5px;
+}
+
+#home{
+    float: left;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10em 5em 10em 5em;
+}
+
+.big-logo{
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to bottom left,#EDF5E1, #5CDB95, #05386B);
+    box-shadow: 10px 10px;
+}
+
+.main-text{
+    color: rgba(237, 245, 225, 1);
+    font-size: 5em;
+}
+
+.sub-text{
+    color: rgba(237, 245, 225, 1);
+    font-size: 2em;
+}
+
+.buttons{
+    font-size: 2em;
+}
+
+#press{
+    border: 2px solid black;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 1em;
+    background-image: linear-gradient(to top right, black, blue);
+    box-shadow: 5px 5px black;
+}
+
+a{
+    text-decoration: none;
+    display: block;
+    color:white;
+    transition-property: color;
+    transition-duration: 0.5s;
+}
+
+a:hover{
+    color: darkorange;
+}
